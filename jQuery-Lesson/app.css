@@ -1,6 +1,20 @@
 .box1 {
-  display: none;
-  background-color: #FF0000;
+  /* display: none; */
+  background-color: #ff0000;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin-top: auto;
+  margin: 0 50;
+}
+
+.box1-ext {
+  border: 10px solid black;
+}
+
+.box2 {
+  /* display: none; */
+  background-color: green;
   height: 200px;
   width: 200px;
   text-align: center;
