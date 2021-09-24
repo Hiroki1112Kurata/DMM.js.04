@@ -8,10 +8,6 @@
   margin: 0 50;
 }
 
-.box1-ext {
-  border: 10px solid black;
-}
-
 .box2 {
   /* display: none; */
   background-color: green;
@@ -20,4 +16,11 @@
   text-align: center;
   margin-top: auto;
   margin: 0 50;
+}
+
+/* .box2-ext {
+  border: 10px solid black;
+} */
+.box1-ext {
+  border: 10px solid black;
 }
