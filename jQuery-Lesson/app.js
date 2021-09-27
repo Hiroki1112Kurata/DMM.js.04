@@ -30,20 +30,30 @@
 //   });
 // });
 
+// $(function(){
+//   $('.box2').mouseover(function(){
+//     $('.box2').addClass('box1-ext');
+//   });
+//   $('.box2').mouseout(function(){
+//     $('.box2').removeClass('box1-ext');
+//   });
+// });
+
+// $(function(){
+//   $('.box1').on('click', function(){
+//     $('.box1').addClass('box1-ext');
+//   });
+//   $('.box1').mouseout(function(){
+//     $('.box1').removeClass('box1-ext');
+//   });
+// });
+
+// ７章ここから
+
 $(function(){
-  $('.box2').mouseover(function(){
-    $('.box2').addClass('box1-ext');
-  });
-  $('.box2').mouseout(function(){
-    $('.box2').removeClass('box1-ext');
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
   });
 });
 
-$(function(){
-  $('.box1').on('click', function(){
-    $('.box1').addClass('box1-ext');
-  });
-  $('.box1').mouseout(function(){
-    $('.box1').removeClass('box1-ext');
-  });
-});
+// ７章ここまで
